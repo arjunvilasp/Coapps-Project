@@ -1,0 +1,117 @@
+/* Login.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.main-login-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+.login-container {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+    /* background: url("https://media.wired.com/photos/5c9040ee4950d24718d6da99/1:1/w_1800,h_1800,c_limit/shoppingcart-1066110386.jpg"); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.login-container  .left-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container  .login-form {
+    height: 300px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-container .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container .login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-container .login-form  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 12px;
+}
+
+.login-container .login-form .form-group input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+}
+
+.login-container .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e76d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container .btn-login:hover {
+    background-color: #12508e;
+}
+
+.login-container .register-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+.login-container .register-link a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-container .register-link a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.login-container .right-section{
+    flex: 1;
+}
+
+.login-container .right-section img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

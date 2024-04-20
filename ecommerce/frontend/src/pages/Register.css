@@ -1,0 +1,113 @@
+/* Login.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.main-register-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+.register-container {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.register-container  .left-section{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.register-container .left-section img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.register-container  .register-form {
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-container .register-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-container  .form-group {
+    margin-bottom: 20px;
+}
+
+.register-container  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 12px;
+}
+
+.register-container .form-group input,textarea {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+}
+
+.register-container .btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e76d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container .btn-register:hover {
+    background-color: #12508e;
+}
+
+.register-container .login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+.register-container .login-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-container .login-link a:hover {
+    color: #0056b3; 
+}
+
+.register-container .right-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

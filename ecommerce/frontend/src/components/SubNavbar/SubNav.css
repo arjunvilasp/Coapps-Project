@@ -1,0 +1,21 @@
+.subnav-container{
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+}
+
+.subnav-container .categories{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subnav-container .categories .category{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}

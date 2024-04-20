@@ -1,0 +1,11 @@
+.products-by-category{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.not-found{
+    text-align: center;
+    color: rgb(95, 97, 99);
+}
